@@ -1,0 +1,20 @@
+{
+  "name": "trainingportaltests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codeceptjs/configure": "^0.5.2",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "codeceptjs": "^2.6.8",
+    "codeceptjs-resemblehelper": "^1.9.2",
+    "puppeteer": "^5.2.1"
+  }
+}

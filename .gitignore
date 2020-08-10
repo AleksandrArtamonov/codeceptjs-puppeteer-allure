@@ -1,0 +1,11 @@
+#dependencies
+/node_modules
+
+#outputs
+/output
+/allure-report
+/screenshots/diff
+# IDEs and editors
+/.idea
+*.iml
+
