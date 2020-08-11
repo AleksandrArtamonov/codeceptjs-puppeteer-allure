@@ -29,6 +29,7 @@ jobs:
         npm install
         npm test
     - name: Allure report
+      if: ${{ always() }}
       uses: afiore/action-allure-report@v0.1.0
       with:
         results-dir: allure-results
