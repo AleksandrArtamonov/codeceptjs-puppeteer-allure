@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx codeceptjs run"
+    "test": "npx codeceptjs run  --plugins allure"
   },
   "keywords": [],
   "author": "",
