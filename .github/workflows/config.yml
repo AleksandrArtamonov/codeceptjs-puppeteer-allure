@@ -35,6 +35,7 @@ jobs:
         results-dir: allure-results
         report-dir: allure-report
     - name: Archive allure report
+      if: ${{ always() }}
       uses: actions/upload-artifact@v2.1.3
       with:
         name: allure-report
