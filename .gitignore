@@ -4,6 +4,7 @@
 #outputs
 /output
 /allure-report
+/allure-results
 /screenshots/diff
 # IDEs and editors
 /.idea

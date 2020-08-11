@@ -18,7 +18,7 @@ npm test
 ```
 generate report
 ```
-allure serve output
+allure serve allure-results
 ```
 ### TODO
 - Add Github actions

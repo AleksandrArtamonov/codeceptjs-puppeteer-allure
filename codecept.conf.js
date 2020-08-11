@@ -46,6 +46,7 @@ exports.config = {
         enabled: true
       },
       allure: {
+		outputDir: './allure-results',
         enableScreenshotDiffPlugin: true
       },
       autoLogin: {
