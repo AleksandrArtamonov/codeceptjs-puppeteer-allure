@@ -16,8 +16,10 @@ npx codeceptjs run --plugins allure
 or
 npm test
 ```
-generate report
+generate report (allure-commandline need java 8 for local pc)
+
 ```
+npm install -g allure-commandline --save-dev //only 1 time
 allure serve allure-results
 ```
 ### TODO
